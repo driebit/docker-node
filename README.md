@@ -3,6 +3,9 @@ driebit/node
 
 A Docker image for compiling frontend assets. 
 
+Usage
+-----
+
 Add some scripts to your project’s `package.json`:
 
 ```json
@@ -24,13 +27,4 @@ docker run -it -v `pwd`:/app driebit/node
 npm info it worked if it ends with ok
 ...
 
-```
-
-Usage
------
-
-Run Gulp against a Gulpfile.js in the current directory:
-
-```bash
-$ docker run -it -v $(pwd):/app driebit/node-gulp
 ```
