@@ -1,4 +1,4 @@
-FROM node:7.8-alpine
+FROM node:8.4.0-alpine
 
 # Increase npm install performance
 RUN npm set progress=false
